@@ -22,20 +22,30 @@ Krankenhaus1 enthält einen spielbaren Simulationskern mit:
 - TypeScript + Vite + Phaser
 - Vitest-Tests und GitHub Actions für Test + Build
 
-## Entwicklung
+## Lokal mit einem Klick starten
+
+Windows-Nutzer können **`start-local.bat`** doppelklicken. Das Script installiert fehlende Abhängigkeiten, startet den Vite-Server und öffnet anschließend automatisch das Spiel unter:
+
+`http://localhost:5173/Krankenhaus1/`
+
+Alternativ:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Produktionsbuild:
+Danach im Browser öffnen:
+
+`http://localhost:5173/Krankenhaus1/`
+
+## Produktionsbuild
 
 ```bash
 npm run build
 ```
 
-Tests:
+## Tests
 
 ```bash
 npm test
